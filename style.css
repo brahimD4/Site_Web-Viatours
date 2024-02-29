@@ -1,0 +1,177 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+/*style de header*/
+header{
+background-color:#FEF7F4;
+display: flex;
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+align-items: center;
+
+}
+
+
+.navbar{
+    align-items: center;
+}
+.navbar li{
+display: inline;
+text-decoration: none;
+padding-left: 20px;
+}
+
+.navbar a{
+    text-decoration: none;
+    }
+
+.navbar a:hover{
+    text-decoration:underline;
+    }
+
+#log_in{
+        margin-left:  20px;
+        cursor: pointer;
+        background-color: chocolate;
+        border: none;
+        height: 20px;
+        width: 40px;
+        color:white;
+    }
+#log_in:hover{
+    background-color: rgb(0, 255, 115);
+    }
+
+.left_frem{
+    display:flex;
+    /*background-color: rgb(43, 128, 226);*/
+}
+
+.paragh_potton{
+/*background-color: brown;*/
+position: relative;
+/*margin-top: 5px;*/
+
+}
+
+/*debut style de grand paragraghe*/
+.p1{
+   
+    font-size: 45px;   
+    margin-top: 135px;
+   /* background-color: rgb(73, 20, 220);*/
+   
+     
+    }
+  #jamais{
+        color: chocolate;
+    }
+
+ .p2{
+   /* background-color: chartreuse;*/
+
+    }
+
+#Expl,.p1,.p2{
+    margin-left: 100px;
+    margin-bottom: 20px;
+    }
+
+/*style de button explorer*/
+
+#Expl{
+    cursor: pointer;
+    background-color: chocolate;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+}
+#Expl:hover{
+    text-decoration:underline;
+    background-color: rgb(0, 255, 115);
+    cursor: pointer;
+}
+
+
+/*debut de style de grande image*/
+#image1{
+       
+        width:32%;
+        height:32%;
+        position: relative;
+        margin-left: 6%;
+        margin-top: 5%;
+      /* background-color: aqua;*/
+
+    }
+
+/*style de pourqui*/
+.Pourqui{
+/*background-color: darkgreen;*/
+font-size:  30px; ;
+padding-left: 40px;
+margin-top: 20px;
+
+
+}
+
+
+/* style des logo et texte */
+
+.tous_logo_paragh{
+   /* background-color: rgb(55, 139, 34);*/
+    display: flex;
+    margin-top: 30px;
+
+}
+
+
+/* style des logo  et texte */
+.logo1{
+/*background-color: rgb(160, 105, 95);*/
+padding: 20px 20px 20px 35px;
+flex: 1;
+}
+
+.logo2{
+/*background-color: rgb(95, 101, 160);*/
+padding: 20px 20px 20px 35px;
+flex: 1;
+ }
+
+.logo3{
+/* background-color: rgb(160, 95, 104);*/
+ padding: 20px 20px 20px 35px;
+ flex: 1;
+    }
+
+.logo4{
+ /*background-color: rgb(95, 160, 95);*/
+ padding: 20px 20px 20px 35px;
+ flex: 1;
+  }
+
+
+/*style des petit icone*/
+
+#ticket_svg,#hot_air,#diamond_svg,#medal_svg{
+/*background-color: crimson;*/
+width: 35px;
+
+}
+
+.pragph1, .pragph2,.pragph3,.pragph4{
+margin-top: 23px;
+}
+  /*syle de footer*/
+  .footer{
+
+    background-color:#FEF7F4;
+    padding-left: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
