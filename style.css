@@ -3,7 +3,12 @@ margin: 0;
 padding: 0;
 font-family: sans-serif;
 }
+/*style de content*/
+.contant{
+   /* background-color: fuchsia;*/
+    }
 /*style de header*/
+
 header{
 background-color:#FEF7F4;
 display: flex;
@@ -20,12 +25,12 @@ align-items: center;
 }
 .navbar li{
 display: inline;
-text-decoration: none;
-padding-left: 20px;
+padding-left: 40px;
 }
 
 .navbar a{
     text-decoration: none;
+    color: black;
     }
 
 .navbar a:hover{
@@ -33,17 +38,18 @@ padding-left: 20px;
     }
 
 #log_in{
-        margin-left:  20px;
+        margin-left:  40px;
         cursor: pointer;
         background-color: chocolate;
         border: none;
-        height: 20px;
-        width: 40px;
+        height: 25px;
+        width: 50px;
         color:white;
     }
 #log_in:hover{
     background-color: rgb(0, 255, 115);
     }
+
 
 .left_frem{
     display:flex;
@@ -60,8 +66,9 @@ position: relative;
 /*debut style de grand paragraghe*/
 .p1{
    
-    font-size: 45px;   
+    font-size: 50px;   
     margin-top: 135px;
+    font-family: Arial, Helvetica, sans-serif;
    /* background-color: rgb(73, 20, 220);*/
    
      
@@ -71,8 +78,8 @@ position: relative;
     }
 
  .p2{
-   /* background-color: chartreuse;*/
-
+    /*background-color: chartreuse;*/
+    font-size: 12px;
     }
 
 #Expl,.p1,.p2{
@@ -113,7 +120,7 @@ position: relative;
 .Pourqui{
 /*background-color: darkgreen;*/
 font-size:  30px; ;
-padding-left: 40px;
+padding-left: 5%;
 margin-top: 20px;
 
 
@@ -125,33 +132,37 @@ margin-top: 20px;
 .tous_logo_paragh{
    /* background-color: rgb(55, 139, 34);*/
     display: flex;
-    margin-top: 30px;
+    margin-top: 40px;
+    position: relative;
+    padding-left: 5%;
 
 }
 
 
 /* style des logo  et texte */
-.logo1{
-/*background-color: rgb(160, 105, 95);*/
-padding: 20px 20px 20px 35px;
+.logo1,.logo2,.logo3,.logo4{
 flex: 1;
+}
+
+.logo1{
+  /*  background-color: rgb(160, 95, 100);*/
 }
 
 .logo2{
 /*background-color: rgb(95, 101, 160);*/
-padding: 20px 20px 20px 35px;
+
 flex: 1;
  }
 
 .logo3{
-/* background-color: rgb(160, 95, 104);*/
- padding: 20px 20px 20px 35px;
+/*background-color: rgb(219, 173, 20);*/
+
  flex: 1;
     }
 
 .logo4{
  /*background-color: rgb(95, 160, 95);*/
- padding: 20px 20px 20px 35px;
+
  flex: 1;
   }
 
@@ -160,13 +171,21 @@ flex: 1;
 
 #ticket_svg,#hot_air,#diamond_svg,#medal_svg{
 /*background-color: crimson;*/
-width: 35px;
+width: 40px;
 
 }
 
 .pragph1, .pragph2,.pragph3,.pragph4{
-margin-top: 23px;
+/*background-color: cornflowerblue;*/
+margin-top: 30px;
+padding-right: 20px;
 }
+
+.pragph1 p, .pragph2 p,.pragph3 p,.pragph4 p{
+  /*background-color: cornflowerblue;*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+    }
   /*syle de footer*/
   .footer{
 
@@ -174,4 +193,6 @@ margin-top: 23px;
     padding-left: 70px;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-top: 6%;
+   
   }
